@@ -27,6 +27,7 @@ public class Request {
 	public void parse(){
 		try {
 			uri=parseUrl(IOUtils.toString(inputStream,"utf-8"));
+			System.out.println(uri);
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
